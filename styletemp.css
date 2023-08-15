@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    background-color: #242424;
+
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background-image: linear-gradient(180deg, rgba(222, 0, 0, 0.85), rgb(16, 244, 206));
+    ;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+
+.temperature {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.temperature input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+
+.temperature button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.temperature button img {
+    width: 50px;
+}
+
+.temperature button:hover {
+    background-color: #8092a4;
+}
+
+.value h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.convert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.convert label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.convert select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ebfffc;
+    color: #555;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.convert select option {
+    font-size: 16px;
+    background-color: #ebfffc;
+    color: #555;
+}
+
+.convert select:hover {
+    background-color: #f0f0f0;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
